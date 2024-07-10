@@ -242,11 +242,21 @@ span {
 @keyframes typing {
   0% {
     content: "Networking";
-    width: 0;
+  width: 100%;
+  }
+
+  10% {
+    content: "LAN";
+    width: 100%;
   }
 
   20% {
     content: "Systems";
+    width: 100%;
+  }
+  
+  30% {
+    content: "Integrate";
     width: 100%;
   }
 
@@ -255,13 +265,28 @@ span {
     width: 100%;
   }
 
+  50% {
+    content: "Programming";
+    width: 100%;
+  }
+
   60% {
     content: "Software";
     width: 100%;
   }
 
+  70% {
+    content: "Web";
+    width: 100%;
+  }
+
   80% {
     content: "Hacking";
+    width: 100%;
+  }
+
+  90% {
+  content: "Info-Sec";
     width: 100%;
   }
 
