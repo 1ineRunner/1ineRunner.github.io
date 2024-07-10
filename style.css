@@ -123,7 +123,7 @@ span {
 .home-img img {
   position: relative;
   top: -5rem;
-  width: 32vw;
+  width: 32rem;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
@@ -205,17 +205,17 @@ span {
   color: black;
 }
 
-.text-animation{
+.text-animation {
   font-size: 35px;
   font-weight: 600;
   min-width: 200px;
 }
 
-.text-animation span{
+.text-animation span {
   position: relative;
 }
 
-.text-animation span::before{
+.text-animation span::before {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -243,25 +243,29 @@ span {
     content: "Networking";
     width: 0;
   }
+
   20% {
     content: "Systems";
     width: 100%;
   }
+
   40% {
     content: "Security";
     width: 100%;
   }
+
   60% {
     content: "Software";
     width: 100%;
   }
+
   80% {
     content: "Hacking";
     width: 100%;
   }
+
   100% {
     content: "Tester";
     width: 100%;
   }
 }
-
