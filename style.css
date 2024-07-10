@@ -276,6 +276,15 @@ span {
     padding: 1.5rem 5%;
   }
 
+  .navigation a {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-right: 3%;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+  }
+  
   .logo {
     font-size: 2rem;
   }
