@@ -237,14 +237,6 @@ span {
   width: calc(100% + 8px);
 }
 
-.container {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  transform: rotate(45deg);
-  top: 0; bottom: 0; left: 0; right: 0;
-}
 
 @keyframes typing {
   0% {
@@ -293,7 +285,7 @@ span {
   }
 
   90% {
-  content: "Info Sec";
+  content: "InfoSec";
     width: 100%;
   }
 
@@ -324,10 +316,6 @@ span {
   .navigation a {
     font-size: 1.4rem;
     margin-right: 2%;
-  }
-
-  .home {
-    gap: 10rem;
   }
 
   .home-content h1 {
