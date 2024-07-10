@@ -1,3 +1,4 @@
+/* Default CSS configuration */
 html {
   height: 100%;
   width: 100%;
@@ -14,6 +15,7 @@ html {
 
 }
 
+
 :root {
   --bg-color: #252525;
   --second-bg-color: #112e42;
@@ -26,6 +28,7 @@ body {
   color: var(--text-color);
   font-size: 1rem;
 }
+
 
 .header {
   position: fixed;
@@ -41,6 +44,7 @@ body {
   z-index: 5;
 }
 
+/* Logo class */
 .logo {
   font-size: 2rem;
   color: var(--text-color);
@@ -57,6 +61,7 @@ body {
   text-shadow: 0 0 25px var (--main-color);
 }
 
+/* Nav Bar */
 .navigation a {
   font-size: 2rem;
   color: var(--text-color);
@@ -81,14 +86,14 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 12% 5rem;
+  padding: 5rem 12% 5rem;
 }
 
 .home {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 1rem;
 }
 
 .home-content {
