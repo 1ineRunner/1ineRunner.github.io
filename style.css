@@ -306,6 +306,10 @@ span {
     padding: 1.5rem 5%;
   }
 
+  .home {
+    margin-top: -15rem;
+  }
+
   .navigation a {
     font-size: 1.6rem;
     color: var(--text-color);
