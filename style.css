@@ -93,8 +93,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  margin-top: -15rem;
+  gap: 4rem;
+  margin-top: -10rem;
 }
 
 .home-content {
@@ -247,7 +247,7 @@ span {
 @keyframes typing {
   0% {
     content: "Networking";
-  width: 100%;
+    width: 100%;
   }
 
   10% {
@@ -259,7 +259,7 @@ span {
     content: "Systems";
     width: 100%;
   }
-  
+
   30% {
     content: "Integrate";
     width: 100%;
@@ -291,7 +291,7 @@ span {
   }
 
   90% {
-  content: "InfoSec";
+    content: "InfoSec";
     width: 100%;
   }
 
@@ -306,10 +306,6 @@ span {
     padding: 1.5rem 5%;
   }
 
-  .home {
-    margin-top: -15rem;
-  }
-
   .navigation a {
     font-size: 1.6rem;
     color: var(--text-color);
@@ -318,7 +314,7 @@ span {
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
   }
-  
+
   .logo {
     font-size: 2rem;
   }
@@ -341,6 +337,7 @@ span {
   .home {
     margin-top: -15rem;
   }
+
   body {
     font-size: 0.8rem;
   }
