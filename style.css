@@ -98,8 +98,6 @@ section {
   text-align: left;
   justify-content: center;
   margin-top: -10rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
 span {
@@ -277,17 +275,10 @@ span {
   .header {
     padding: 2rem 10vw;
   }
-  .home-content{
-    margin-left: 15vw;
-  }
-  
 }
 
 @media screen and (max-width: 480px) {
   .header {
     padding: 2rem 15vw;
-  }
-  .home-content{
-    margin-left: 20vw;
   }
 }
