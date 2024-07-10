@@ -270,3 +270,44 @@ span {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 1.5rem 5%;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .navigation a {
+    font-size: 1.4rem;
+    margin-right: 2%;
+  }
+
+  .home {
+    gap: 10rem;
+  }
+
+  .home-content h1 {
+    font-size: 4rem;
+  }
+
+  .home-img img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
