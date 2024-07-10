@@ -15,7 +15,6 @@ html {
 
 }
 
-
 :root {
   --bg-color: #252525;
   --second-bg-color: #112e42;
@@ -29,13 +28,12 @@ body {
   font-size: 1rem;
 }
 
-
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 4rem 12% 4rem;
+  padding: 4vw 12% 4vw;
   background: rgba(50, 50, 50, 0.3);
   backdrop-filter: blur(20px);
   display: flex;
@@ -46,7 +44,7 @@ body {
 
 /* Logo class */
 .logo {
-  font-size: 2rem;
+  font-size: 2vw;
   color: var(--text-color);
   font-weight: 600;
   cursor: pointer;
@@ -63,7 +61,7 @@ body {
 
 /* Nav Bar */
 .navigation a {
-  font-size: 2rem;
+  font-size: 2vw;
   color: var(--text-color);
   margin-right: 100%;
   margin-left: -60%;
@@ -79,22 +77,22 @@ body {
 }
 
 #menu-icon {
-  font-size: 3rem;
+  font-size: 3vw;
   color: var(--main-color);
   display: none;
 }
 
 section {
   min-height: 100vh;
-  padding: 5rem 12% 5rem;
+  padding: 5vw 12% 5vw;
 }
 
 .home {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  margin-top: -10rem;
+  gap: 4vw;
+  margin-top: 15vw;
 }
 
 .home-content {
@@ -115,22 +113,22 @@ span {
 }
 
 .home-content h3 {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  font-size: 3rem;
+  margin-bottom: 2vw;
+  margin-top: 1vw;
+  font-size: 3vw;
 }
 
 .home-content h1 {
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: 700;
-  margin-top: 2rem;
+  margin-top: 2vw;
   line-height: 1;
 }
 
 .home-img img {
   position: relative;
-  top: -5rem;
-  width: 32rem;
+  top: -5vw;
+  width: 32vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
@@ -145,7 +143,7 @@ span {
 }
 
 .home-content p {
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 500;
   line-height: 2;
   max-width: 1000px;
@@ -155,14 +153,14 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 5rem;
-  height: 5rem;
+  width: 5vw;
+  height: 5vw;
   background: transparent;
   border: 0.2rem solid var(--main-color);
-  font-size: 3rem;
+  font-size: 3vw;
   border-radius: 50%;
   color: var(--main-color);
-  margin: 3rem 2rem 3rem 0;
+  margin: 3vw 2vw 3vw 0;
   transition: 0.3s ease-in-out;
 }
 
@@ -175,14 +173,14 @@ span {
 
 .btn {
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1vw 3vw;
   background: var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
-  border-radius: 4rem;
-  font-size: 1.5rem;
+  border-radius: 4vw;
+  font-size: 1.5vw;
   color: black;
   border: 2px solid transparent;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.1vw;
   font-weight: 600;
   transition: 0.3s ease-in-out;
   cursor: pointer;
@@ -196,7 +194,7 @@ span {
 .btn-group {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1vw;
 }
 
 .btn-group a:nth-of-type(2) {
@@ -303,11 +301,11 @@ span {
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 1.5rem 5%;
+    padding: 1.5vw 5%;
   }
 
   .navigation a {
-    font-size: 1.6rem;
+    font-size: 1.6vw;
     color: var(--text-color);
     margin-right: 3%;
     font-weight: 500;
@@ -316,16 +314,16 @@ span {
   }
 
   .logo {
-    font-size: 2rem;
+    font-size: 2vw;
   }
 
   .navigation a {
-    font-size: 1.4rem;
+    font-size: 1.4vw;
     margin-right: 2%;
   }
 
   .home-content h1 {
-    font-size: 4rem;
+    font-size: 4vw;
   }
 
   .home-img img {
@@ -339,14 +337,14 @@ span {
   }
 
   body {
-    font-size: 0.8rem;
+    font-size: 0.8vw;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
   }
 
   p {
-    font-size: 0.9rem;
+    font-size: 0.9vw;
   }
 }
