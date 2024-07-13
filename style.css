@@ -80,7 +80,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 5vw 12% 1vw;
+  padding: 1vw 12% 5vw;
 }
 
 .home {
@@ -97,7 +97,7 @@ section {
   align-items: baseline;
   text-align: left;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 1vw;
 }
 
 span {
@@ -156,7 +156,7 @@ span {
   font-size: 3vw;
   border-radius: 50%;
   color: var(--main-color);
-  margin: 3vw 2vw 3vw 0;
+  margin: 1vw 2vw 3vw 0;
   transition: 0.3s ease-in-out;
 }
 
