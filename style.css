@@ -40,7 +40,7 @@ body {
 
 /* Logo class */
 .logo {
-  font-size: 21vw;
+  font-size: 2vw;
   color: var(--text-color);
   font-weight: 600;
   cursor: pointer;
